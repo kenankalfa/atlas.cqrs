@@ -49,6 +49,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\Atlas.Core.Event\Atlas.Core.Event.csproj">
+      <Project>{36ed008e-12db-463e-9b1a-1c868377ed46}</Project>
+      <Name>Atlas.Core.Event</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Atlas.Events\Atlas.Events.csproj">
       <Project>{7da39b1f-99c4-464b-90ce-4f08f07e9ed5}</Project>
       <Name>Atlas.Events</Name>

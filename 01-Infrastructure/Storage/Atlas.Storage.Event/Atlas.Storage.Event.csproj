@@ -46,5 +46,19 @@
     <Compile Include="IEventStoragePolicy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Atlas.Core.Domain\Atlas.Core.Domain.csproj">
+      <Project>{41896cf1-c067-43e9-b8c2-1583ec0b16e6}</Project>
+      <Name>Atlas.Core.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Atlas.Core.Event\Atlas.Core.Event.csproj">
+      <Project>{36ed008e-12db-463e-9b1a-1c868377ed46}</Project>
+      <Name>Atlas.Core.Event</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Atlas.Core.Exception\Atlas.Core.Exception.csproj">
+      <Project>{27499ed9-1291-42d4-af86-1fcd27268d59}</Project>
+      <Name>Atlas.Core.Exception</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

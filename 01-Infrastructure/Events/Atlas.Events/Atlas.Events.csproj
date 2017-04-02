@@ -48,5 +48,11 @@
     <Compile Include="DiaryItemToChangedEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Atlas.Core.Event\Atlas.Core.Event.csproj">
+      <Project>{36ed008e-12db-463e-9b1a-1c868377ed46}</Project>
+      <Name>Atlas.Core.Event</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

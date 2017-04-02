@@ -48,6 +48,10 @@
       <Project>{36ed008e-12db-463e-9b1a-1c868377ed46}</Project>
       <Name>Atlas.Core.Event</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Atlas.Core\Atlas.Core.csproj">
+      <Project>{06345e5e-a25c-4ad2-b94c-0694184e2709}</Project>
+      <Name>Atlas.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
